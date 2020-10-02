@@ -58,64 +58,45 @@ li {
     margin: 1px;
     padding-top: 20px;
     text-align: justify;
-    font-family:Impact;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    line-height: 30px;
     
 }
 
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+audio {
+    margin: auto;
+}
 
 </style>
 </head>
 
 <body>
-    <!--
-    <h1 style="color:white";>
-        Quick facts about Mars
-    </h1>
-
-    <div class="content">
-        <h2>Surface Facts</h2>
-
-        <img src="mars_back.jpg" alt="Surfacec of Mars" >
-
+    <a href="index.html">        
+        <button class="btn">Home</button>
+        </a>
+        <a href="earl_mars_miss.html">
+        <button class="btn">Missions</button>
+        </a>
+        <a href="perser.html">
+            <button class="btn">Perservarence</button>
+            </a>
+        <a href="mangalyaan.html">
+        <button class="btn">Mangalyaan</button>
+        </a>
         
-
-        
-            <li>Ground is rich in Iron Oxide</li>
-            <li>Surface is rocky with canyons, volcanoes, dry lake beds and craters </li>
-            <li>Surface temperature varies from -145 C to 35 C</li>
-            <li>Atomosphere is thin with barely any Oxygen</li>
-            <li>Power source: 350 watts</li>
-            <li>Rotor-speed: 2400 rpm</li>
-            <li>Maximum altitude: 10 m</li>
-            <li> Maximum speed: 10 m/s</li>
-        
-        
-      </div>
-      
-      <div class="content">
-        <h2>Atomosphere Facts</h2>
-
-        <img src="mars_back.jpg" alt="Martian Atomosphere" >
-
-        
-
-        
-            <li>Ground is rich in Iron Oxide</li>
-            <li>Surface is rocky with canyons, volcanoes, dry lake beds and craters </li>
-            <li>Surface temperature varies from -145 C to 35 C</li>
-            <li>Atomosphere is thin with barely any Oxygen</li>
-            <li>Power source: 350 watts</li>
-            <li>Rotor-speed: 2400 rpm</li>
-            <li>Maximum altitude: 10 m</li>
-            <li> Maximum speed: 10 m/s</li>
-        
-        
-      </div>
-
-    <img id="mars_rot" src="mars_rot_slow.gif" alt="Mars rotating", style="width:300px;">
-
-    -->
     <table>
     <tr>
         <td>
@@ -124,8 +105,15 @@ li {
     
             <img src="mars_back.jpg" alt="Surfacec of Mars">
     
-            
-    
+            <li><p align="center" style="color: orange;">Sound on Mars</p>
+            <audio controls >
+
+                
+                <source src="mars_sou.wav" type="audio/ogg">
+                
+                Your browser does not support the audio element.
+            </audio>
+            </li>
             
                 <li>Ground is rich in Iron Oxide</li>
                 <li>Rocky with canyons, volcanoes, dry lake beds and craters </li>
@@ -152,13 +140,13 @@ li {
             <div class="content">
                 <h2>Miscallaneous Facts I</h2>
         
-                <img src="mars_back.jpg" alt="Surfacec of Mars" >
+                <img src="mars_god.jpeg" alt="Mars, God of War" >
         
                 
         
                 
-                    <li>Named after Roman God of War, Mars</li>
-                    <li>It is called Red Planer because, well, it is RED </li>
+                    <li>Named after the Roman God of War, Mars</li>
+                    <li>It is called Red Planet because, well, it is RED </li>
                     <li>Fourth Planet from the Sun in the Solar System</li>
                     <li>Second smallest planet in the Solar System after Mercury</li>
                                     
@@ -168,6 +156,7 @@ li {
 
         
       </tr>
+      <br>
       <tr>
         <td>
             <div class="content">
@@ -190,13 +179,15 @@ li {
         </td>
         <td>
             <img id="mars_rot" src="mars_rot_slow.gif" alt="Mars rotating", style="width:700 px;">
+            
+            
         </td>
         
 
         <td>
             <div class="content">
                 <h2>Phobos Facts</h2>
-        
+                
                 <img src="phobos.jpg" alt="Mars satellite Phobos" >
         
                     <li>Discovered on 17th August 1877</li>
@@ -206,13 +197,35 @@ li {
                     <li>Mean radius: 11 Km</li>
                     <li>Seven timems as large as Deimos</li>
                     
+
                 
                 
               </div>
         </td>
 
       </tr>
+      <br>
       <tr>
+        
+        <td>
+            <div class="content">
+                <h2>Miscallaneous Facts II</h2>
+        
+                <img src="olympus_mons.jpg" alt="Olympus Mons" >
+        
+                
+        
+                    <li>Home to the highest mountain in our Solar sytem called Olympus Mons</li>
+                    <li>Mars is roughly half the size of the Earth</li>
+                    <li>We can jump three times higher than on Earth </li>
+                    
+                    <li>It has a diameter of around 6800 Km</li>
+                    
+                
+                
+              </div>
+        </td>
+
         <td>
             <div class="content">
                 <h2>Orbital Facts</h2>
@@ -233,44 +246,21 @@ li {
                 
               </div>
         </td>
+
         <td>
             <div class="content">
-                <h2>Surface Facts</h2>
+                <h2>Miscallaneous Facts III</h2>
         
-                <img src="mars_back.jpg" alt="Surfacec of Mars" >
-        
-                
-        
-                
-                    <li>Ground is rich in Iron Oxide</li>
-                    <li>Surface is rocky with canyons, volcanoes, dry lake beds and craters </li>
-                    <li>Surface temperature varies from -145 C to 35 C</li>
-                    <li>Atomosphere is thin with barely any Oxygen</li>
-                    <li>Power source: 350 watts</li>
-                    <li>Rotor-speed: 2400 rpm</li>
-                    <li>Maximum altitude: 10 m</li>
-                    <li> Maximum speed: 10 m/s</li>
-                
-                
-              </div>
-        </td>
-        <td>
-            <div class="content">
-                <h2>Surface Facts</h2>
-        
-                <img src="mars_back.jpg" alt="Surfacec of Mars" >
+                <img src="mars_met.jpg" alt="mars metorite" >
         
                 
         
-                
-                    <li>Ground is rich in Iron Oxide</li>
-                    <li>Surface is rocky with canyons, volcanoes, dry lake beds and craters </li>
-                    <li>Surface temperature varies from -145 C to 35 C</li>
-                    <li>Atomosphere is thin with barely any Oxygen</li>
-                    <li>Power source: 350 watts</li>
-                    <li>Rotor-speed: 2400 rpm</li>
-                    <li>Maximum altitude: 10 m</li>
-                    <li> Maximum speed: 10 m/s</li>
+                    <li>Pieces of Mars have fallen on the Earth</li>
+                    <li>Mars has the largest dust storms in the Solar System</li>
+                    <li>Mars and Earth have approximately the same land mass </li>
+                    <li>So far only 18 missions to Mars have been successful</li>
+                    
+                    
                 
                 
               </div>

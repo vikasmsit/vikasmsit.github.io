@@ -20,9 +20,9 @@
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  width:300px;
+  width:350px;
   padding: 20px;
-  word-break:break-all;
+  
   margin-top: 20px;
 
 }
@@ -32,10 +32,11 @@
   position: relative;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 100%;
-  
+  width: 85%;
+  align-self: auto;
   padding: 20px;
-  word-break:break-all;
+  margin: auto
+  
 }
 
 .content img {
@@ -47,36 +48,86 @@
 
 
 .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
+  background-color: DodgerBlue;
   border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+}
+
+
+
+
+p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+li {
+
+line-height: 40px;
+font-size: 20px;
+
+}
+
+h2 {
   text-align: center;
+  font-style: oblique;
 }
 
+h1 {
+  text-align: center;
+  font-style: italic
+}
+    video {
+      display: inline-block;
+    align-self: auto;
+    margin-left: 5%;
+    margin-right: 10%;
 
-iframe {
+      width: 720px;
+      Height: 480px;
+    }
+
+    .content1 {
+  position: absolute;
   
-  display: inline-block;
-align-self: auto;
-margin-left: 10%;
-margin-right: 10%;
-
+  
+  background: rgba(0, 0, 0, 0.288);
+  
+  width: 100%;
+  width:550px;
+  padding: 5px;
+  
+  margin-top:11%;
+  margin-left:33%;
+  text-align: auto;
+  color:orange;
+  font-style:italic;
+  
 }
 
-    
+.btn:hover {
+  background-color: RoyalBlue;
+}
 
  </style>
 </head>
     <body>
+      <a href="index.html">        
+        <button class="btn">Home</button>
+        </a>
+        <a href="earl_mars_miss.html">
+        <button class="btn">Missions</button>
+        </a>
+        
+        <a href="mangalyaan.html">
+        <button class="btn">Mangalyaan</button>
+        </a>
+        <a href="mars_condition.html">
+        <button class="btn">Martian Facts</button>
+        </a>
 
         <div class="content_main">
             <h1>Mars 2020 Mission</h1>
@@ -88,8 +139,11 @@ margin-right: 10%;
             </p>
             
           </div>
+          <div class="content1">
+            <h1>Mars Mission Overview</h1>
+          </div>
           
-          <div class="content">
+          <div class="content" style="background:rgba(0, 0, 0, 0.75); margin-left: 30px;">
             <h2>Ingenuity Helicopter</h2>
 
             <img src="ingen_heli.png" alt="Ingenuity Helicopter" >
@@ -109,13 +163,19 @@ margin-right: 10%;
           </div>
           
           
-
-          <iframe width="720" height="480"src="https://www.youtube.com/watch?v=5qqsMjy8Rx0">
+          <!---
+          <iframe width="900" height="400px" src="miss_over.mp4">
             
             
             Your browser does not support the iframe tag.
           </iframe>
+        -->
 
+          <video title="Persevarence Mission Overview" controls>
+            <source src="miss_over.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+          </video> 
           
 
           <div class="content">
@@ -129,15 +189,11 @@ margin-right: 10%;
                 <li>Length: 3 m</li>
                 <li>Height: 2.7 m</li>
                 <li>Weight: 1,025 Kg</li>
-                <li>Power source: Multi-Mission Radioisotope Thermoelectric Generator (MMRTG).</li>
+                <li style="line-height: 20px">Power source: Multi-Mission Radioisotope Thermoelectric Generator (MMRTG).</li>
             
             
           </div>
-          <!--
-          <a href="curr_stat.html">
-            <button class="btn">Button2</button>
-           </a>
-          -->
+          
     
     </body>
     </html>

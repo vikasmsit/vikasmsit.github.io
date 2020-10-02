@@ -3,11 +3,9 @@
 <html>
 
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        * {
-          box-sizing: border-box;
-        }
+        
         
         body {
           margin: 0;
@@ -55,7 +53,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .container img {
@@ -85,6 +83,63 @@
   background-color: black;
 }
 
+table {
+    width: 100%;
+    
+    
+}
+
+.content {
+  position: fixed;
+  
+  
+  background: rgba(0, 0, 0, 0.288);
+  color: #f1f1f1;
+  width: 100%;
+  width:300px;
+  padding: 20px;
+  
+  margin-top:15%;
+  margin-left:40%;
+  text-align: auto;
+  
+}
+
+.content1 {
+  position: fixed;
+  
+  
+  background: rgba(0, 0, 0, 0.288);
+  color: #f1f1f1;
+  width: 100%;
+  width:50px;
+  padding: 0px;
+  
+  
+  margin-top:10%;
+  margin-left:48%;
+  text-align: auto;
+  
+}
+.content1:hover{
+  background-color: orange;
+  
+}
+}
+
+h1 {
+  text-align: center;
+  line-height: 50px;
+}
+
+
+
+.content em {
+  color: #ffa500;
+}
+
+
+
 
 
         </style>
@@ -94,66 +149,75 @@
 <body>
 
     <video autoplay muted loop id="nasa_lau">
-        <source src="nasa_lau.mp4" type="video/mp4">
+        <source src="ro_he_mod.mp4".mp4 type="video/mp4">
         Your browser does not support HTML5 video.
       </video>
     
-      <div class="content">
-        <h1>Heading</h1>
+      <div class="content1">
+        <a href="https://www.facebook.com/NASAPersevere/" title="Perseverance FB Page">
+      <img src="fb_but.png" height="40 px" align="center">
+    </a>
+      </div>
         
-        <p>Mars Missions overviews</p>
-        <!--
-        
-        <img src="https://media.wusa9.com/assets/WTSP/images/c371288f-b463-495f-ac72-9347579dd1bc/c371288f-b463-495f-ac72-9347579dd1bc_1920x1080.jpg", width=600 alt="Perserverance Rover">
-        
-        
-        -->
+        <div class="content">
+          <h1><em>MARS</em> exploration is all about <i>Perseverance</i> and <i>Curiousity</i></h1>
+
+        </div>
         
 
-            
+            <table>
+
+              <tr>
+               <td align="left" >      
             <div class="container">
                 <img src="mars_bac_but.png" alt="Snow" style="width:100%">
                 <a href="mars_condition.html">
-                <button class="btn">Button1</button>
+                <button class="btn">Martian Facts</button>
             </a>
             </div>
 
-            
+          </td>
+          <td align="right">
             <div class="container">
                 <img src="perser.png" alt="Snow" style="width:100%">
                 <a href="perser.html">
-                <button class="btn">Button2</button>
+                <button class="btn">Perseverance</button>
             </a>
             </div>
-        
 
+          </td>
+
+          </tr>
+          
+        
+          
+          
+          <tr>
+        
+          <td align="left">
             <div class="container">
                 <img src="earlier_miss_but.png" alt="Snow" style="width:100%">
                 <a href="earl_mars_miss.html">
-                <button class="btn">Button3</button>
+                <button class="btn">Missions</button>
             </a>
             </div>
+
+          </td>
+
+          <td align="right">
 
             <div class="container">
                 <img src="mang_but.jpg" alt="Snow" style="width:100%">
                 <a href="mangalyaan.html">
-                <button class="btn">Button4</button>
+                <button class="btn">Mangalyaan</button>
             </a>
             </div>
+          </td>
+          </tr>
 
-              
-        
-      </div>
-      
+          </table>
 
-<h1>
-    Curiosity over Perserverance
-</h1>
-
-<img src="https://media.wusa9.com/assets/WTSP/images/c371288f-b463-495f-ac72-9347579dd1bc/c371288f-b463-495f-ac72-9347579dd1bc_1920x1080.jpg", width=600 alt="Perserverance Rover">
-<h2>
-    This website in currently under construction. Check back soon ! 
-</h2>
+          
 </body>
 
 </html>
