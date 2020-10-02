@@ -23,7 +23,28 @@
   width:300px;
   padding: 20px;
   word-break:break-all;
+  margin-top: 20px;
+
 }
+
+.content_main {
+
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  
+  padding: 20px;
+  word-break:break-all;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  
+}
+
+
 
 .btn {
   position: absolute;
@@ -41,32 +62,82 @@
   text-align: center;
 }
 
+
+iframe {
+  
+  display: inline-block;
+align-self: auto;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
     
 
  </style>
 </head>
     <body>
 
-        <div class="content">
+        <div class="content_main">
             <h1>Mars 2020 Mission</h1>
-            <p>The main aim a a a a a a ba aklasdlaskdklasdlsadjdlkasjlaskdklajdladjalkdjasldjsasadasdsadsakdhskadkas
+            <p>Launched by NASA Mars exploration program in June 2020, Mars 2020 Mission consists of Perseverance rover and the Ingenuity helicopter drone. 
+              This mission is keen to address high-priority science goals including the key-questions related to potential life on Mars.
+              This mission is not only concerned about possibility of life on the Red Planet sometime in the Past, but also about existencec of current microbial life
+              in the present. It is expected to reach Martian orbit in February 2021.
                 
             </p>
             
           </div>
           
           <div class="content">
-            <h1>Mars 2020 Mission</h1>
-            <p>The main aim of the Mars 2020 Mission is to deply the rover, Persevarence, on the surface of Mars by Feb 18, 2021
-                
-            </p>
+            <h2>Ingenuity Helicopter</h2>
+
+            <img src="ingen_heli.png" alt="Ingenuity Helicopter" >
+
+            <p>The Helicopter's aim is to use flight technology to scout interesting targets on Mars and plan best driving routes for future Mars rovers. </p>
+
+            
+                <li>Diameter: 120 cm</li>
+                <li>Height: 80 cm</li>
+                <li>Landing Mass: 1.8 Kg</li>
+                <li>Power source: 350 watts</li>
+                <li>Rotor-speed: 2400 rpm</li>
+                <li>Maximum altitude: 10 m</li>
+                <li> Maximum speed: 10 m/s</li>
+            
             
           </div>
+          
+          
 
+          <iframe width="720" height="480"src="https://www.youtube.com/watch?v=5qqsMjy8Rx0">
+            
+            
+            Your browser does not support the iframe tag.
+          </iframe>
+
+          
+
+          <div class="content">
+            <h2>Persevarence Rover</h2>
+
+            <img src="perser.png" alt="Persevarence Rover" >
+
+            <p>The rover specifically consists of a drill that can set aside rock samples in a Cache for future missions to collect</p>
+
+            
+                <li>Length: 3 m</li>
+                <li>Height: 2.7 m</li>
+                <li>Weight: 1,025 Kg</li>
+                <li>Power source: Multi-Mission Radioisotope Thermoelectric Generator (MMRTG).</li>
+            
+            
+          </div>
+          <!--
           <a href="curr_stat.html">
             <button class="btn">Button2</button>
            </a>
-    
+          -->
     
     </body>
     </html>
